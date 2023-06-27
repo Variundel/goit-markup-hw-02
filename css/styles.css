@@ -195,3 +195,51 @@ font-family: Roboto;
 line-height: 1.5;
 letter-spacing: 0.02em;
 }
+
+/**---------------PAGE 2------------------**/
+
+/**-----------Section 1-----------**/
+.btn-all {
+    color: var(--white, #FFF);
+        text-align: center;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+    background-color: #404BBF;
+    cursor: pointer;
+}
+
+.btn-others {
+    color: var(--iris, #4D5AE5);
+        text-align: center;
+        font-size: 16px;
+        font-family: Roboto;
+        font-weight: 500;
+        line-height: 1.5;
+        letter-spacing: 0.04em;
+        background-color: #E7E9FC;
+        cursor: pointer;
+}
+
+/**-----------Section 1-----------**/
+
+.img-main {}
+
+.img-list {
+    color: var(--navyblue, #2E2F42);
+font-size: 20px;
+font-family: Roboto;
+font-weight: 500;
+line-height: 1.2;
+letter-spacing: 0.02em;
+}
+
+.img-list-item {
+    color: var(--slate, #434455);
+font-size: 16px;
+font-family: Roboto;
+line-height: 1.5;
+letter-spacing: 0.02em;
+}
