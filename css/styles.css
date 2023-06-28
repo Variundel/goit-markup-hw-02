@@ -31,14 +31,13 @@ color: var(--iris, #4D5AE5);
 }
 
 .header-address {
-    font-style: normal
+    font-style: normal;
 }
 
 .heade-address-item:hover,
 .heade-address-item:focus {
     color: #404bbf
 }
-
 
 .heade-address-item {
     color: var(--slate, #434455);
@@ -56,7 +55,7 @@ color: var(--iris, #4D5AE5);
 .header-logo {
 color: var(--iris, #4D5AE5);
     font-size: 18px;
-    font-family: Raleway;
+    font-family: "Raleway", sans-serif;
     font-weight: 800;
     line-height: 1.17;
     letter-spacing: 0.03em;
@@ -83,7 +82,7 @@ color: var(--navyblue, #2E2F42);
         text-align: center;
         font-size: 56px;
         font-weight: 700;
-        line-height: 1.17;
+        line-height: 1.07;
         letter-spacing: 0.02em;
 }
 
@@ -195,7 +194,7 @@ cursor: pointer;
     font-family: "Raleway", sans-serif;
     color: #4d5ae5;
     font-size: 18px;
-        font-family: Raleway;
+        font-family: "Raleway", sans-serif;
         font-weight: 800;
         line-height: 1.17;
         letter-spacing: 0.03em;
@@ -223,31 +222,50 @@ letter-spacing: 0.02em;
 /**---------------PAGE 2------------------**/
 
 /**-----------Section 1-----------**/
+
+.portfolio {
+    font-size: 0;
+        width: 200px;
+        height: 20px;
+}
+
+.btn-all:hover,
+.btn-all:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .btn-all {
     color: var(--white, #FFF);
         text-align: center;
         font-size: 16px;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-    background-color: #404BBF;
+        color: #4d5ae5;
+    background-color: #F4F4FD;
     cursor: pointer;
 }
 
+.btn-others:hover,
+.btn-others:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
+
 .btn-others {
-    color: var(--iris, #4D5AE5);
+    color: var(--white, #FFF);
         text-align: center;
         font-size: 16px;
-        font-family: Roboto;
+        font-family: "Roboto", sans-serif;
         font-weight: 500;
         line-height: 1.5;
         letter-spacing: 0.04em;
-        background-color: #E7E9FC;
+        color: #4d5ae5;
+        background-color: #F4F4FD;
         cursor: pointer;
 }
-
-/**-----------Section 1-----------**/
 
 .img-main {}
 
