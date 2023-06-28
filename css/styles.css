@@ -9,7 +9,7 @@ body{
 }
 
 .list {
-    list-style-type: none;
+    list-style: none;
 }
 
 .header-menu {
@@ -229,13 +229,13 @@ letter-spacing: 0.02em;
         height: 20px;
 }
 
-.btn-all:hover,
-.btn-all:focus {
+.btn:hover,
+.btn:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
 
-.btn-all {
+.btn {
     color: var(--white, #FFF);
         text-align: center;
         font-size: 16px;
@@ -246,25 +246,6 @@ letter-spacing: 0.02em;
         color: #4d5ae5;
     background-color: #F4F4FD;
     cursor: pointer;
-}
-
-.btn-others:hover,
-.btn-others:focus {
-    color: #FFFFFF;
-    background-color: #404BBF;
-}
-
-.btn-others {
-    color: var(--white, #FFF);
-        text-align: center;
-        font-size: 16px;
-        font-family: "Roboto", sans-serif;
-        font-weight: 500;
-        line-height: 1.5;
-        letter-spacing: 0.04em;
-        color: #4d5ae5;
-        background-color: #F4F4FD;
-        cursor: pointer;
 }
 
 .img-main {}
