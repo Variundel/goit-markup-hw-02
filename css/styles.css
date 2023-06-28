@@ -36,7 +36,7 @@ body{
 
 .header-list-link:hover,
 .header-list-link:focus {
-color: #4D5AE5;
+color: #404bbf;
 }
 
 .header-address {
@@ -45,6 +45,7 @@ color: #4D5AE5;
 
 .heade-address-item:hover,
 .heade-address-item:focus {
+    color: #404bbf;
     color: #404bbf;
 }
 
