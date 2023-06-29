@@ -239,7 +239,9 @@ letter-spacing: 0.02em;
     background-color: #404BBF;
 }
 
-.btn {
+.btn {}
+
+.btn-list {
     color: #FFF;
         text-align: center;
         font-size: 16px;
