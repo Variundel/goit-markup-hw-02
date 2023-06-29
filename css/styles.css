@@ -233,8 +233,8 @@ letter-spacing: 0.02em;
 
 .portfolio {}
 
-.btn:hover,
-.btn:focus {
+.btn-list:hover,
+.btn-list:focus {
     color: #FFFFFF;
     background-color: #404BBF;
 }
